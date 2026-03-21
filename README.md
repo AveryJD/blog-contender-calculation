@@ -17,6 +17,6 @@ The NHL standings data that I used came from [Hockey Reference](https://www.hock
 ## Check it Out
 Below you can view the blog that goes into details on this experiment and results:
 
-[The Blog Post](https://analyticswithavery.com/blog/2)
+[The Blog Post](https://analyticswithavery.com/blog/contender-calculation)
 
 You can view the final contender scores for every seasons in the "scores" folder in this repository
