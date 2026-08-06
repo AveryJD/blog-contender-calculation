@@ -4,7 +4,7 @@
 # ====================================================================================================
 
 # List of seasons included in the analysis
-SEASONS = [
+SEASONS = [ '2025-2026',
     '2024-2025', '2023-2024', '2022-2023', '2021-2022', '2020-2021',
     '2019-2020', '2018-2019', '2017-2018', '2016-2017', '2015-2016',
     '2014-2015', '2013-2014', '2012-2013', '2011-2012', '2010-2011',
@@ -63,13 +63,13 @@ TEAM_NAME_MAP = {
 ATL_SEASONS = ['2010-2011', '2009-2010', '2008-2009']
 
 # Seasons the Vegas Golden Knights played in the league
-VGK_SEASONS = ['2024-2025', '2023-2024', '2022-2023', '2021-2022', '2020-2021', '2019-2020', '2018-2019', '2017-2018']
+VGK_SEASONS = ['2025-2026', '2024-2025', '2023-2024', '2022-2023', '2021-2022', '2020-2021', '2019-2020', '2018-2019', '2017-2018']
 
 # Seasons the Seattle Kraken played in the league
-SEA_SEASONS = ['2024-2025', '2023-2024', '2022-2023', '2021-2022']
+SEA_SEASONS = ['2025-2026', '2024-2025', '2023-2024', '2022-2023', '2021-2022']
 
 # Seasons the Utah Hockey Club played in the league
-UTA_SEASONS = ['2024-2025']
+UTA_SEASONS = ['2025-2026', '2024-2025']
 
 
 # Z-score constants (mean and standard deviations for player average games scores/ goalie GSAx)
@@ -123,6 +123,12 @@ SCORE_WEIGHTS = {
 
 # Playoff results (rounds won) by season and team
 TEAM_RESULTS = {
+    '2025-2026': {
+        'CAR': 4, 'VGK': 3, 'COL': 2, 'MTL': 2,
+        'MIN': 1, 'ANA': 1, 'BUF': 1, 'PHI': 1,
+        'DAL': 0, 'UTA': 0, 'EDM': 0, 'LAK': 0,
+        'TBL': 0, 'PIT': 0, 'OTT': 0, 'BOS': 0
+    },
     '2024-2025': {
         'FLA': 4, 'EDM': 3, 'DAL': 2, 'CAR': 2,
         'WPG': 1, 'VGK': 1, 'TOR': 1, 'WSH': 1,
